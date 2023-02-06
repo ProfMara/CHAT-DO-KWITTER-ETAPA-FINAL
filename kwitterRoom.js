@@ -43,12 +43,7 @@ function irSala(sala){
 }
 
 
-//apaga o nome do usuário
-function logout() { 
-  localStorage.removeItem("userName");
-  localStorage.removeItem("roomName");
-  window.location = "index.html";
-}
+
 //exibe o nome do usuário no site kwitterRoom.js
 function carregar(){
   var nome = localStorage.getItem("userName");
